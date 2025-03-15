@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
+add_definitions("-DBOOST_MPL_LIMIT_LIST_SIZE=30")
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
